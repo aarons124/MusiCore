@@ -1,0 +1,48 @@
+{
+  "name": "musicore",
+  "version": "1.0.0",
+  "description": "Advanced music bot to enhance your server with MusiCore's seamless music experience and an array of features designed to entertain and engage your community.",
+  "type": "module",
+  "main": "src/index",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarons124/MusiCore.git"
+  },
+  "keywords": [
+    "distube",
+    "discord-player",
+    "discord",
+    "music",
+    "bot",
+    "discord",
+    "bot"
+  ],
+  "author": {
+    "name": "Aaron Sandoval",
+    "email": "aaron280904@proton.me",
+    "url": "https://twitter.com/aaron_s124"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aarons124/MusiCore/issues"
+  },
+  "homepage": "https://github.com/aarons124/MusiCore#readme",
+  "dependencies": {
+    "@discord-player/extractor": "^4.3.0",
+    "@discordjs/opus": "0.9.0",
+    "@discordjs/voice": "0.16.0",
+    "axios": "^1.4.0",
+    "colors": "1.4.0",
+    "discord-player": "6.5.0",
+    "discord.js": "14.11.0",
+    "dotenv": "16.0.3",
+    "libsodium-wrappers": "0.7.11",
+    "play-dl": "1.9.6"
+  },
+  "devDependencies": {
+    "eslint": "8.41.0"
+  }
+}
