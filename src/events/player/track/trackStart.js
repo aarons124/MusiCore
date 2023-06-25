@@ -17,7 +17,7 @@ export default {
         .setColor('Blurple')
         .setTitle('Now Playing')
         .setDescription(`[${track.title}](${track.url}) - ${track.author}`)
-      queue.metadata.channel.send(`Started playing **${track.title}**!`);
+      queue.metadata.channel.send({ embeds: [embed] });
     } catch (error) {
       
     }
