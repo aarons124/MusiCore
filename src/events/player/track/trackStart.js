@@ -13,7 +13,10 @@ export default {
 
   async execute(queue, track) {
     try {
-
+      const embed = new EmbedBuilder()
+        .setColor('Blurple')
+        .setTitle('Now Playing')
+        .setDescription(`[${track.title}](${track.url}) - ${track.author}`)
       queue.metadata.channel.send(`Started playing **${track.title}**!`);
     } catch (error) {
       
